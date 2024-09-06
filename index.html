@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autos Increíbles</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Autos Increíbles</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#gallery">Galería</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="home">
+        <h2>Bienvenido a Autos Increíbles</h2>
+        <p>Explora nuestra colección de autos impresionantes.</p>
+    </section>
+    
+    <section class="gallery">
+        <h2>Galería de Autos</h2>
+        <div class="car-gallery">
+            <div class="car" data-car="car1">
+                <img src="car1.jpg" alt="Auto 1">
+                <p>Auto 1</p>
+            </div>
+            <div class="car" data-car="car2">
+                <img src="car2.jpg" alt="Auto 2">
+                <p>Auto 2</p>
+            </div>
+            <div class="car" data-car="car3">
+                <img src="car3.jpg" alt="Auto 3">
+                <p>Auto 3</p>
+            </div>
+        </div>
+        <div class="car-details">
+            <button class="close-button">Cerrar</button>
+            <div class="details-content"></div>
+        </div>
+    </section>
+    
+    <section class="contact">
+        <h2>Contacto</h2>
+        <form class="contact-form">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Autos Increíbles. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
